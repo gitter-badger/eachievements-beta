@@ -1,0 +1,5 @@
+Project
+=====================
+
+* build architectural proposal
+* create single responsibility plugins (for example: core, ui, etc.)

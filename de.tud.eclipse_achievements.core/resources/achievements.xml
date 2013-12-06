@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<achievements>
+	<category name="basic">
+		<achievement className="de.tud.eclipse_achievements.impl.RegexpAchievement">
+			<name>Create new class</name>
+			<description>You created your first class!</description>
+			<icon>default.png</icon>
+			<requiredCompletions>1</requiredCompletions>
+			<regexp>.*public class.*</regexp>
+			<suffix>.java</suffix>
+		</achievement>
+		<achievement className="de.tud.eclipse_achievements.impl.RegexpAchievement">
+			<name>Create private variable</name>
+			<description>You created a private variable!</description>
+			<icon>default.png</icon>
+			<requiredCompletions>1</requiredCompletions>
+			<regexp>.*private.*</regexp>
+			<suffix>.java</suffix>
+		</achievement>
+	</category>
+</achievements>

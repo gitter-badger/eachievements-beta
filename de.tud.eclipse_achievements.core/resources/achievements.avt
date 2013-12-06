@@ -1,0 +1,13 @@
+Achievements {
+ 
+   Category basic {
+   
+   		Achievement "Create new class" says "You created your first class!";
+   		The icon is "default.png";
+   		Search ".*public class.*" in ".java" files;
+   
+   		Achievement "Create private variable" says "You created a private variable!";
+   		The icon is "default.png";
+   		Search ".*private.*" in ".java" files;
+   }
+}

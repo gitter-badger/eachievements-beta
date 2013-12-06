@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Cache
+Bundle-SymbolicName: de.tud.eclipse_achievements.index;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: de.tud.eclipse_achievements.index.EclipseAchievementsCachePlugin
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Export-Package: de.tud.eclipse_achievements.index,
+ de.tud.eclipse_achievements.index.entities
+Bundle-ClassPath: lib/guava-12.0.jar,
+ lib/sqlitejdbc-v056.jar,
+ .
+Bundle-ActivationPolicy: lazy
